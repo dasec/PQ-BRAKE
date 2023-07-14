@@ -31,14 +31,13 @@ cd FingerJetFXOSE/FingerJetFXOSE
 ./runCMake.sh x64
 sudo mkdir /usr/local/include/fjfx/
 sudo cp libFJFX/include/FJFX.h libFRFXLL/include/FRFXLL* /usr/local/include/fjfx/
-cd build/Linux-x86_64/x64
+cd build/Linux-x86_64/x64 
 make
 cd ../../../dist/Linux-x86_64/x64/
 sudo cp libFRFXLL_static.a /usr/local/lib/libFRFXLL.a
 sudo cp libFJFX_static.a /usr/local/lib/libFJFX.a
-cd ../../../libFJFX/include/
-sudo cp FJFX.h /usr/local/include/fjfx/all.h
-cd ../../../../
+cd ../../../../../
+sudo mv fjfx_all.h /usr/local/include/fjfx/all.h
 
 # install NTL
 git clone https://github.com/libntl/ntl
