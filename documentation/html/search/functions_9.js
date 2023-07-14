@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['kems_0',['KEMs',['../classoqs_1_1KEMs.html#a92e877a21629089e23de85ae56c525d7',1,'oqs::KEMs']]],
+  ['keyencapsulation_1',['KeyEncapsulation',['../classoqs_1_1KeyEncapsulation.html#a7e90cc1a525e0194c04c14e499c7c050',1,'oqs::KeyEncapsulation::KeyEncapsulation(const std::string &amp;alg_name, bytes secret_key={})'],['../classoqs_1_1KeyEncapsulation.html#a742ca45f0eb6d0cfcb72113821422ae1',1,'oqs::KeyEncapsulation::KeyEncapsulation(const KeyEncapsulation &amp;)=default'],['../classoqs_1_1KeyEncapsulation.html#a1b6f7b54b8dc0e6e31d216ec384bd402',1,'oqs::KeyEncapsulation::KeyEncapsulation(KeyEncapsulation &amp;&amp;rhs) noexcept']]],
+  ['kyberwithtimings_2',['kyberWithTimings',['../Crypto_8cpp.html#a05e7c00822e434b8bda7bdf87d0e519f',1,'kyberWithTimings(std::vector&lt; double &gt; &amp;timings_KeyGen, std::vector&lt; double &gt; &amp;timings_Encap, std::vector&lt; double &gt; &amp;timings_Decap, const string &amp;kyber_version):&#160;Crypto.cpp'],['../Crypto_8hpp.html#a05e7c00822e434b8bda7bdf87d0e519f',1,'kyberWithTimings(std::vector&lt; double &gt; &amp;timings_KeyGen, std::vector&lt; double &gt; &amp;timings_Encap, std::vector&lt; double &gt; &amp;timings_Decap, const string &amp;kyber_version):&#160;Crypto.cpp']]]
+];
