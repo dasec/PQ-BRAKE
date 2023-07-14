@@ -18,7 +18,7 @@ There are 3 tests available:
 To install the program:
 1. Clone the repository
 2. Run the [installation script](install.sh) script as root (see requirements section below)
-3. executables are created in the [build folder](build/) folder (test logs too)
+3. executables are created in the [build/](build/) folder (same with test logs)
 *if the installation fails for any reason, a precompiled version of the test executables is provided in the [precompiled](/tests/precompiledTests/) folder*
 
 ## Requirements (tested on Ubuntu-based Linux distro):
