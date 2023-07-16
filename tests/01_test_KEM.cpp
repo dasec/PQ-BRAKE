@@ -44,7 +44,7 @@ int main() {
         cin >> iterations;
     }
 
-    for (int i = 0; i < iterations + 1; i++) {
+    for (int i = 0; i < iterations; i++) {
         auto KEM_timer_start = chrono::steady_clock::now();
 
         /* calling the KEM function, timing is done inside it and given as return values */
