@@ -8,6 +8,7 @@ There are 3 tests available:
 3. PQ-BRAKE test - performance of the PQ-BRAKE protocol, enrolling a fingerprint and queries another; if successful, a shared secret is established
    - usage: (sudo) ./03_test_PQBRAKE path_to_reference_fingerprint.pgm path_to_query_fingerprint.pgm
    - root privileges are needed in order to write the full performance numbers to the logfile, program can be run as a normal user but no logs will be made and only a shortened version of the performance numbers will be printed to console
+   - Hint: if the fingerprint images used for testing are in a non-.pgm format, a simple way to convert them is to use the imagemagick package in Linux: ```magick mogrify -format pgm <fingerprint_image.bmp>```
 
 # Installation
 
